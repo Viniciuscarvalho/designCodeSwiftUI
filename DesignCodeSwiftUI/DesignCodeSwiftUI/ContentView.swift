@@ -12,6 +12,8 @@ struct ContentView: View {
     @State var show = false
     @State var viewState = CGSize.zero
     @State var showCard = false
+    @State var bottomState = CGSize.zero
+    @State var showFull = false
     
     var body: some View {
         ZStack {
@@ -36,7 +38,7 @@ struct ContentView: View {
                 .scaleEffect(showCard ? 1 : 0.9)
                 .rotationEffect(.degrees(show ? 0 : 10))
                 .rotationEffect(Angle(degrees: showCard ? -10 : 0))
-                .rotation3DEffect(.degrees(show ? 0 : 10), axis: (x: 10.0, y: 0, z: 0))
+                .rotation3DEffect(.degrees(showCard ? 0 : 10), axis: (x: 10.0, y: 0, z: 0))
                 .blendMode(.hardLight)
                 .animation(.easeInOut(duration: 0.5))
              
@@ -48,10 +50,10 @@ struct ContentView: View {
                 .offset(x: 0, y: show ? -200 : -20)
                 .offset(x: viewState.width, y: viewState.height)
                 .offset(y: showCard ? -140 : 0)
-                .scaleEffect(0.95)
+                .scaleEffect(showCard ? 1 : 0.95)
                 .rotationEffect(Angle.degrees(show ? 0 : 5))
                 .rotationEffect(Angle(degrees: showCard ? -5 : 0))
-                .rotation3DEffect(.degrees(show ? 0 : 5), axis: (x: 10.0, y: 0, z: 0))
+                .rotation3DEffect(.degrees(showCard ? 0 : 5), axis: (x: 10.0, y: 0, z: 0))
                 .blendMode(.hardLight)
                 .animation(.easeInOut(duration: 0.3))
             
@@ -78,11 +80,36 @@ struct ContentView: View {
                 }
             )
             
+            Text("\(bottomState.height)").offset(y: -300)
+            
             BottomCardView()
                 .offset(x: 0, y: showCard ? 360 : 1000)
+                .offset(y: bottomState.height)
                 .blur(radius: show ? 20 : 0)
                 .animation(.timingCurve(0.2, 0.8, 0.2, 1, duration: 0.8))
-
+            .gesture(
+                DragGesture().onChanged { value in
+                    self.bottomState = value.translation
+                    if self.showFull {
+                        self.bottomState.height += -300
+                    }
+                    if self.bottomState.height < -300 {
+                        self.bottomState.height = 300
+                    }
+                }
+                .onEnded { value in
+                    if self.bottomState.height > 50 {
+                        self.showCard = false
+                    }
+                    if (self.bottomState.height < -100 && !self.showFull) || (self.bottomState.height < -250 && self.showFull) {
+                        self.bottomState.height = -300
+                        self.showFull = true
+                    } else {
+                        self.bottomState = .zero
+                        self.showFull = false
+                    }
+                }
+            )
         }
     }
 }
@@ -147,7 +174,7 @@ struct BottomCardView: View {
     var body: some View {
         VStack(spacing: 20) {
             Rectangle()
-                .frame(width: 40, height: 5)
+                .frame(width: 60, height: 6)
                 .cornerRadius(3)
                 .opacity(0.1)
             
