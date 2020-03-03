@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA61F10A2405AEF7009404DF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA61F1092405AEF6009404DF /* MenuView.swift */; };
+		EA6B3F55240DE3650059EA4C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B3F54240DE3650059EA4C /* Home.swift */; };
 		EA87D6AD23EB9AC60075B66F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA87D6AC23EB9AC60075B66F /* AppDelegate.swift */; };
 		EA87D6AF23EB9AC60075B66F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA87D6AE23EB9AC60075B66F /* SceneDelegate.swift */; };
 		EA87D6B123EB9AC60075B66F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA87D6B023EB9AC60075B66F /* ContentView.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		EA61F1092405AEF6009404DF /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		EA6B3F54240DE3650059EA4C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		EA87D6A923EB9AC60075B66F /* DesignCodeSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA87D6AC23EB9AC60075B66F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA87D6AE23EB9AC60075B66F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				EA87D6B723EB9ACC0075B66F /* LaunchScreen.storyboard */,
 				EA87D6BA23EB9ACC0075B66F /* Info.plist */,
 				EA87D6B423EB9ACC0075B66F /* Preview Content */,
+				EA6B3F54240DE3650059EA4C /* Home.swift */,
 			);
 			path = DesignCodeSwiftUI;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			files = (
 				EA87D6AD23EB9AC60075B66F /* AppDelegate.swift in Sources */,
 				EA61F10A2405AEF7009404DF /* MenuView.swift in Sources */,
+				EA6B3F55240DE3650059EA4C /* Home.swift in Sources */,
 				EA87D6AF23EB9AC60075B66F /* SceneDelegate.swift in Sources */,
 				EA87D6B123EB9AC60075B66F /* ContentView.swift in Sources */,
 			);
