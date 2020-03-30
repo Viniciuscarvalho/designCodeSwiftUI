@@ -69,7 +69,6 @@
 			children = (
 				EA87D6AE23EB9AC60075B66F /* SceneDelegate.swift */,
 				EA87D6AC23EB9AC60075B66F /* AppDelegate.swift */,
-				EA87D6BA23EB9ACC0075B66F /* Info.plist */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -110,6 +109,7 @@
 				EA61F1092405AEF6009404DF /* MenuView.swift */,
 				EA5A692F24216C5E0006A954 /* HomeView.swift */,
 				EA6B3F54240DE3650059EA4C /* Home.swift */,
+				EA87D6BA23EB9ACC0075B66F /* Info.plist */,
 				EA87D6B423EB9ACC0075B66F /* Preview Content */,
 			);
 			path = DesignCodeSwiftUI;
