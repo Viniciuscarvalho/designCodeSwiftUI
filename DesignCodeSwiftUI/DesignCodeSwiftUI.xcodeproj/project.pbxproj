@@ -17,6 +17,7 @@
 		EA87D6B623EB9ACC0075B66F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA87D6B523EB9ACC0075B66F /* Preview Assets.xcassets */; };
 		EA87D6B923EB9ACC0075B66F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA87D6B723EB9ACC0075B66F /* LaunchScreen.storyboard */; };
 		EA87D6C423EB9ACC0075B66F /* DesignCodeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA87D6C323EB9ACC0075B66F /* DesignCodeSwiftUITests.swift */; };
+		EAA9149324353498007BDB7F /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA9149224353498007BDB7F /* UpdateList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EA87D6BF23EB9ACC0075B66F /* DesignCodeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignCodeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA87D6C323EB9ACC0075B66F /* DesignCodeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeSwiftUITests.swift; sourceTree = "<group>"; };
 		EA87D6C523EB9ACC0075B66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA9149224353498007BDB7F /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				EA61F1092405AEF6009404DF /* MenuView.swift */,
 				EA5A692F24216C5E0006A954 /* HomeView.swift */,
 				EA6B3F54240DE3650059EA4C /* Home.swift */,
+				EAA9149224353498007BDB7F /* UpdateList.swift */,
 				EA87D6BA23EB9ACC0075B66F /* Info.plist */,
 				EA87D6B423EB9ACC0075B66F /* Preview Content */,
 			);
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA87D6AD23EB9AC60075B66F /* AppDelegate.swift in Sources */,
+				EAA9149324353498007BDB7F /* UpdateList.swift in Sources */,
 				EA61F10A2405AEF7009404DF /* MenuView.swift in Sources */,
 				EA6B3F55240DE3650059EA4C /* Home.swift in Sources */,
 				EA5A693024216C5E0006A954 /* HomeView.swift in Sources */,
