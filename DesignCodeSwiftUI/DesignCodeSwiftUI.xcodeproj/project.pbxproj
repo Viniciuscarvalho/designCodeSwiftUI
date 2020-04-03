@@ -75,6 +75,7 @@
 		EA5A69312421888C0006A954 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				EA87D6B023EB9AC60075B66F /* ContentView.swift */,
 				EA87D6AE23EB9AC60075B66F /* SceneDelegate.swift */,
 				EA87D6AC23EB9AC60075B66F /* AppDelegate.swift */,
 			);
@@ -88,6 +89,20 @@
 				EA87D6B223EB9ACC0075B66F /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		EA5D83C02437B809005D0E0E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				EA61F1092405AEF6009404DF /* MenuView.swift */,
+				EA5A692F24216C5E0006A954 /* HomeView.swift */,
+				EA6B3F54240DE3650059EA4C /* Home.swift */,
+				EAA9149224353498007BDB7F /* UpdateList.swift */,
+				EA64765F24368B0100702272 /* UpdateDetail.swift */,
+				EA647661243695E200702272 /* UpdateStore.swift */,
+				EA5D83BE2437AD59005D0E0E /* TabBar.swift */,
+			);
+			path = Features;
 			sourceTree = "<group>";
 		};
 		EA87D6A023EB9AC60075B66F = {
@@ -111,16 +126,9 @@
 		EA87D6AB23EB9AC60075B66F /* DesignCodeSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				EA5D83C02437B809005D0E0E /* Features */,
 				EA5A6932242188910006A954 /* Resources */,
 				EA5A69312421888C0006A954 /* Common */,
-				EA87D6B023EB9AC60075B66F /* ContentView.swift */,
-				EA61F1092405AEF6009404DF /* MenuView.swift */,
-				EA5A692F24216C5E0006A954 /* HomeView.swift */,
-				EA6B3F54240DE3650059EA4C /* Home.swift */,
-				EAA9149224353498007BDB7F /* UpdateList.swift */,
-				EA64765F24368B0100702272 /* UpdateDetail.swift */,
-				EA647661243695E200702272 /* UpdateStore.swift */,
-				EA5D83BE2437AD59005D0E0E /* TabBar.swift */,
 				EA87D6BA23EB9ACC0075B66F /* Info.plist */,
 				EA87D6B423EB9ACC0075B66F /* Preview Content */,
 			);
