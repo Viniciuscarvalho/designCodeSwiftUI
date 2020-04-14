@@ -21,6 +21,7 @@
 		EA87D6B923EB9ACC0075B66F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA87D6B723EB9ACC0075B66F /* LaunchScreen.storyboard */; };
 		EA87D6C423EB9ACC0075B66F /* DesignCodeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA87D6C323EB9ACC0075B66F /* DesignCodeSwiftUITests.swift */; };
 		EAA9149324353498007BDB7F /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA9149224353498007BDB7F /* UpdateList.swift */; };
+		EAAB047A24466C0F00B36441 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB047924466C0F00B36441 /* RingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		EA87D6C323EB9ACC0075B66F /* DesignCodeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeSwiftUITests.swift; sourceTree = "<group>"; };
 		EA87D6C523EB9ACC0075B66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAA9149224353498007BDB7F /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		EAAB047924466C0F00B36441 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				EA87D6B023EB9AC60075B66F /* ContentView.swift */,
+				EAAB047924466C0F00B36441 /* RingView.swift */,
 				EA87D6AE23EB9AC60075B66F /* SceneDelegate.swift */,
 				EA87D6AC23EB9AC60075B66F /* AppDelegate.swift */,
 			);
@@ -258,6 +261,7 @@
 				EAA9149324353498007BDB7F /* UpdateList.swift in Sources */,
 				EA61F10A2405AEF7009404DF /* MenuView.swift in Sources */,
 				EA64766024368B0100702272 /* UpdateDetail.swift in Sources */,
+				EAAB047A24466C0F00B36441 /* RingView.swift in Sources */,
 				EA6B3F55240DE3650059EA4C /* Home.swift in Sources */,
 				EA5A693024216C5E0006A954 /* HomeView.swift in Sources */,
 				EA87D6AF23EB9AC60075B66F /* SceneDelegate.swift in Sources */,
