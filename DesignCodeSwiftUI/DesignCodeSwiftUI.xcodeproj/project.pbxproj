@@ -32,6 +32,7 @@
 		EA5D6E492465836900833520 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E332465836800833520 /* README.txt */; };
 		EA5D83BF2437AD59005D0E0E /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D83BE2437AD59005D0E0E /* TabBar.swift */; };
 		EA61F10A2405AEF7009404DF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA61F1092405AEF6009404DF /* MenuView.swift */; };
+		EA6351F52465C76E00DED0E5 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6351F42465C76E00DED0E5 /* CourseList.swift */; };
 		EA64766024368B0100702272 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA64765F24368B0100702272 /* UpdateDetail.swift */; };
 		EA647662243695E200702272 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA647661243695E200702272 /* UpdateStore.swift */; };
 		EA6849DA2464A9CF00A5243B /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6849D92464A9CF00A5243B /* Modifiers.swift */; };
@@ -83,6 +84,7 @@
 		EA5D6E332465836800833520 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		EA5D83BE2437AD59005D0E0E /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		EA61F1092405AEF6009404DF /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		EA6351F42465C76E00DED0E5 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		EA64765F24368B0100702272 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
 		EA647661243695E200702272 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
 		EA6849D92464A9CF00A5243B /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				EA61F1092405AEF6009404DF /* MenuView.swift */,
 				EA5A692F24216C5E0006A954 /* HomeView.swift */,
 				EA6B3F54240DE3650059EA4C /* Home.swift */,
+				EA6351F42465C76E00DED0E5 /* CourseList.swift */,
 				EAA9149224353498007BDB7F /* UpdateList.swift */,
 				EA64765F24368B0100702272 /* UpdateDetail.swift */,
 				EA647661243695E200702272 /* UpdateStore.swift */,
@@ -375,6 +378,7 @@
 				EA87D6AF23EB9AC60075B66F /* SceneDelegate.swift in Sources */,
 				EA87D6B123EB9AC60075B66F /* ContentView.swift in Sources */,
 				EA5D83BF2437AD59005D0E0E /* TabBar.swift in Sources */,
+				EA6351F52465C76E00DED0E5 /* CourseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
