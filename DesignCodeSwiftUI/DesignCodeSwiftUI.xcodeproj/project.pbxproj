@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA5886CD247409DA000422F4 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5886CC247409DA000422F4 /* DataStore.swift */; };
 		EA5A693024216C5E0006A954 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A692F24216C5E0006A954 /* HomeView.swift */; };
 		EA5D6E342465836800833520 /* WorkSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E1D2465836800833520 /* WorkSans-VariableFont_wght.ttf */; };
 		EA5D6E352465836900833520 /* WorkSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E1F2465836800833520 /* WorkSans-Regular.ttf */; };
@@ -31,6 +32,8 @@
 		EA5D6E482465836900833520 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E322465836800833520 /* OFL.txt */; };
 		EA5D6E492465836900833520 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E332465836800833520 /* README.txt */; };
 		EA5D83BF2437AD59005D0E0E /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D83BE2437AD59005D0E0E /* TabBar.swift */; };
+		EA5F65792472FB91009F1F0C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5F65782472FB91009F1F0C /* Data.swift */; };
+		EA5F657B24730412009F1F0C /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5F657A24730412009F1F0C /* PostList.swift */; };
 		EA61F10A2405AEF7009404DF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA61F1092405AEF6009404DF /* MenuView.swift */; };
 		EA6351F52465C76E00DED0E5 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6351F42465C76E00DED0E5 /* CourseList.swift */; };
 		EA64766024368B0100702272 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA64765F24368B0100702272 /* UpdateDetail.swift */; };
@@ -60,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA5886CC247409DA000422F4 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		EA5A692F24216C5E0006A954 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EA5D6E1D2465836800833520 /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		EA5D6E1F2465836800833520 /* WorkSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Regular.ttf"; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 		EA5D6E322465836800833520 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		EA5D6E332465836800833520 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		EA5D83BE2437AD59005D0E0E /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		EA5F65782472FB91009F1F0C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		EA5F657A24730412009F1F0C /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
 		EA61F1092405AEF6009404DF /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		EA6351F42465C76E00DED0E5 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		EA64765F24368B0100702272 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
@@ -191,6 +197,9 @@
 				EA6B3F54240DE3650059EA4C /* Home.swift */,
 				EA6351F42465C76E00DED0E5 /* CourseList.swift */,
 				EA6534D22472D068007E5BE4 /* CourseDetail.swift */,
+				EA5F65782472FB91009F1F0C /* Data.swift */,
+				EA5886CC247409DA000422F4 /* DataStore.swift */,
+				EA5F657A24730412009F1F0C /* PostList.swift */,
 				EAA9149224353498007BDB7F /* UpdateList.swift */,
 				EA64765F24368B0100702272 /* UpdateDetail.swift */,
 				EA647661243695E200702272 /* UpdateStore.swift */,
@@ -370,6 +379,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA87D6AD23EB9AC60075B66F /* AppDelegate.swift in Sources */,
+				EA5F65792472FB91009F1F0C /* Data.swift in Sources */,
+				EA5886CD247409DA000422F4 /* DataStore.swift in Sources */,
 				EA647662243695E200702272 /* UpdateStore.swift in Sources */,
 				EAA9149324353498007BDB7F /* UpdateList.swift in Sources */,
 				EA61F10A2405AEF7009404DF /* MenuView.swift in Sources */,
@@ -379,6 +390,7 @@
 				EA6B3F55240DE3650059EA4C /* Home.swift in Sources */,
 				EA5A693024216C5E0006A954 /* HomeView.swift in Sources */,
 				EA87D6AF23EB9AC60075B66F /* SceneDelegate.swift in Sources */,
+				EA5F657B24730412009F1F0C /* PostList.swift in Sources */,
 				EA87D6B123EB9AC60075B66F /* ContentView.swift in Sources */,
 				EA6534D32472D068007E5BE4 /* CourseDetail.swift in Sources */,
 				EA5D83BF2437AD59005D0E0E /* TabBar.swift in Sources */,
