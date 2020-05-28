@@ -37,6 +37,7 @@
 		EA5F65792472FB91009F1F0C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5F65782472FB91009F1F0C /* Data.swift */; };
 		EA5F657B24730412009F1F0C /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5F657A24730412009F1F0C /* PostList.swift */; };
 		EA61F10A2405AEF7009404DF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA61F1092405AEF6009404DF /* MenuView.swift */; };
+		EA631342247FF068003DA07E /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = EA631341247FF068003DA07E /* SDWebImageSwiftUI */; };
 		EA6351F52465C76E00DED0E5 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6351F42465C76E00DED0E5 /* CourseList.swift */; };
 		EA64766024368B0100702272 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA64765F24368B0100702272 /* UpdateDetail.swift */; };
 		EA647662243695E200702272 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA647661243695E200702272 /* UpdateStore.swift */; };
@@ -132,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA631342247FF068003DA07E /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,12 +220,20 @@
 			path = Features;
 			sourceTree = "<group>";
 		};
+		EA631340247FF068003DA07E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EA87D6A023EB9AC60075B66F = {
 			isa = PBXGroup;
 			children = (
 				EA87D6AB23EB9AC60075B66F /* DesignCodeSwiftUI */,
 				EA87D6C223EB9ACC0075B66F /* DesignCodeSwiftUITests */,
 				EA87D6AA23EB9AC60075B66F /* Products */,
+				EA631340247FF068003DA07E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -303,6 +313,9 @@
 				EA87D6C123EB9ACC0075B66F /* PBXTargetDependency */,
 			);
 			name = DesignCodeSwiftUITests;
+			packageProductDependencies = (
+				EA631341247FF068003DA07E /* SDWebImageSwiftUI */,
+			);
 			productName = DesignCodeSwiftUITests;
 			productReference = EA87D6BF23EB9ACC0075B66F /* DesignCodeSwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -702,6 +715,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EA5886CE24740D7C000422F4 /* XCRemoteSwiftPackageReference "contentful.swift" */;
 			productName = Contentful;
+		};
+		EA631341247FF068003DA07E /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA666C0A24780948002C1207 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 		EA666C0B24780948002C1207 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
