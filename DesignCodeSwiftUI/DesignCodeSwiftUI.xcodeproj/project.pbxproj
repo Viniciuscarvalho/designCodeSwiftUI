@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1335380DC032EB8E335AD3CC /* Pods_DesignCodeSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354BA387F9ABC1B6E6074A5E /* Pods_DesignCodeSwiftUITests.framework */; };
+		B0D8D945FE6C74B011FBF6E3 /* Pods_DesignCodeSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD1CE4EE5514712E00ED84F /* Pods_DesignCodeSwiftUI.framework */; };
 		EA5886CD247409DA000422F4 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5886CC247409DA000422F4 /* DataStore.swift */; };
 		EA5886D024740D7C000422F4 /* Contentful in Frameworks */ = {isa = PBXBuildFile; productRef = EA5886CF24740D7C000422F4 /* Contentful */; };
 		EA5886D2247418E9000422F4 /* CourseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5886D1247418E9000422F4 /* CourseStore.swift */; };
 		EA5A693024216C5E0006A954 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A692F24216C5E0006A954 /* HomeView.swift */; };
+		EA5C165F248989060098A465 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C165E248989060098A465 /* UserStore.swift */; };
 		EA5D6E342465836800833520 /* WorkSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E1D2465836800833520 /* WorkSans-VariableFont_wght.ttf */; };
 		EA5D6E352465836900833520 /* WorkSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E1F2465836800833520 /* WorkSans-Regular.ttf */; };
 		EA5D6E362465836900833520 /* WorkSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E202465836800833520 /* WorkSans-Light.ttf */; };
@@ -34,9 +37,16 @@
 		EA5D6E482465836900833520 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E322465836800833520 /* OFL.txt */; };
 		EA5D6E492465836900833520 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA5D6E332465836800833520 /* README.txt */; };
 		EA5D83BF2437AD59005D0E0E /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D83BE2437AD59005D0E0E /* TabBar.swift */; };
+		EA5DA77F2489322B006F14C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA5DA77E2489322B006F14C9 /* GoogleService-Info.plist */; };
 		EA5F65792472FB91009F1F0C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5F65782472FB91009F1F0C /* Data.swift */; };
 		EA5F657B24730412009F1F0C /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5F657A24730412009F1F0C /* PostList.swift */; };
 		EA607B312487EEA200EF81DA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA607B302487EEA200EF81DA /* LoginView.swift */; };
+		EA607B352488341000EF81DA /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = EA607B332488341000EF81DA /* loading.json */; };
+		EA607B362488341100EF81DA /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = EA607B342488341000EF81DA /* success.json */; };
+		EA607B392488345A00EF81DA /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = EA607B382488345A00EF81DA /* Lottie */; };
+		EA607B3B2488353100EF81DA /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA607B3A2488353100EF81DA /* LottieView.swift */; };
+		EA607B3D2488390B00EF81DA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA607B3C2488390B00EF81DA /* LoadingView.swift */; };
+		EA607B3F24883AD700EF81DA /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA607B3E24883AD700EF81DA /* SuccessView.swift */; };
 		EA61F10A2405AEF7009404DF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA61F1092405AEF6009404DF /* MenuView.swift */; };
 		EA631342247FF068003DA07E /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = EA631341247FF068003DA07E /* SDWebImageSwiftUI */; };
 		EA631344248003AA003DA07E /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA631343248003AA003DA07E /* Buttons.swift */; };
@@ -70,9 +80,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F36899FBE2C1BC8D19AE7B2 /* Pods-DesignCodeSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignCodeSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-DesignCodeSwiftUI/Pods-DesignCodeSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		354BA387F9ABC1B6E6074A5E /* Pods_DesignCodeSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignCodeSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5A26E49D24BC9F94B5DB05 /* Pods-DesignCodeSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignCodeSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-DesignCodeSwiftUITests/Pods-DesignCodeSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9972B69EA994E92F981C60C8 /* Pods-DesignCodeSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignCodeSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-DesignCodeSwiftUI/Pods-DesignCodeSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		ABD1CE4EE5514712E00ED84F /* Pods_DesignCodeSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignCodeSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5886CC247409DA000422F4 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		EA5886D1247418E9000422F4 /* CourseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseStore.swift; sourceTree = "<group>"; };
 		EA5A692F24216C5E0006A954 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EA5C165E248989060098A465 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
 		EA5D6E1D2465836800833520 /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		EA5D6E1F2465836800833520 /* WorkSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Regular.ttf"; sourceTree = "<group>"; };
 		EA5D6E202465836800833520 /* WorkSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Light.ttf"; sourceTree = "<group>"; };
@@ -96,9 +112,15 @@
 		EA5D6E322465836800833520 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		EA5D6E332465836800833520 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		EA5D83BE2437AD59005D0E0E /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		EA5DA77E2489322B006F14C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EA5F65782472FB91009F1F0C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		EA5F657A24730412009F1F0C /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
 		EA607B302487EEA200EF81DA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EA607B332488341000EF81DA /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		EA607B342488341000EF81DA /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
+		EA607B3A2488353100EF81DA /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		EA607B3C2488390B00EF81DA /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		EA607B3E24883AD700EF81DA /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		EA61F1092405AEF6009404DF /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		EA631343248003AA003DA07E /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		EA6351F42465C76E00DED0E5 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
@@ -121,6 +143,7 @@
 		EA87D6C523EB9ACC0075B66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAA9149224353498007BDB7F /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		EAAB047924466C0F00B36441 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		F5224698D639749DE10EEBFA /* Pods-DesignCodeSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignCodeSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-DesignCodeSwiftUITests/Pods-DesignCodeSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +153,8 @@
 			files = (
 				EA666C0C24780948002C1207 /* SDWebImageSwiftUI in Frameworks */,
 				EA5886D024740D7C000422F4 /* Contentful in Frameworks */,
+				EA607B392488345A00EF81DA /* Lottie in Frameworks */,
+				B0D8D945FE6C74B011FBF6E3 /* Pods_DesignCodeSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,12 +163,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA631342247FF068003DA07E /* SDWebImageSwiftUI in Frameworks */,
+				1335380DC032EB8E335AD3CC /* Pods_DesignCodeSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63A9D119CC74E641C2F2D6F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9972B69EA994E92F981C60C8 /* Pods-DesignCodeSwiftUI.debug.xcconfig */,
+				2F36899FBE2C1BC8D19AE7B2 /* Pods-DesignCodeSwiftUI.release.xcconfig */,
+				F5224698D639749DE10EEBFA /* Pods-DesignCodeSwiftUITests.debug.xcconfig */,
+				6F5A26E49D24BC9F94B5DB05 /* Pods-DesignCodeSwiftUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EA5A69312421888C0006A954 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +199,7 @@
 			children = (
 				EA87D6B723EB9ACC0075B66F /* LaunchScreen.storyboard */,
 				EA87D6B223EB9ACC0075B66F /* Assets.xcassets */,
+				EA607B322488341000EF81DA /* Lottie */,
 				EA5D6E1C2465836800833520 /* Work_Sans */,
 			);
 			path = Resources;
@@ -210,8 +248,12 @@
 				EA61F1092405AEF6009404DF /* MenuView.swift */,
 				EA5A692F24216C5E0006A954 /* HomeView.swift */,
 				EA607B302487EEA200EF81DA /* LoginView.swift */,
+				EA5C165E248989060098A465 /* UserStore.swift */,
 				EA6B3F54240DE3650059EA4C /* Home.swift */,
 				EA666C0D24784675002C1207 /* BlurView.swift */,
+				EA607B3A2488353100EF81DA /* LottieView.swift */,
+				EA607B3C2488390B00EF81DA /* LoadingView.swift */,
+				EA607B3E24883AD700EF81DA /* SuccessView.swift */,
 				EA6351F42465C76E00DED0E5 /* CourseList.swift */,
 				EA6534D22472D068007E5BE4 /* CourseDetail.swift */,
 				EA5886D1247418E9000422F4 /* CourseStore.swift */,
@@ -226,9 +268,20 @@
 			path = Features;
 			sourceTree = "<group>";
 		};
+		EA607B322488341000EF81DA /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				EA607B332488341000EF81DA /* loading.json */,
+				EA607B342488341000EF81DA /* success.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
 		EA631340247FF068003DA07E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ABD1CE4EE5514712E00ED84F /* Pods_DesignCodeSwiftUI.framework */,
+				354BA387F9ABC1B6E6074A5E /* Pods_DesignCodeSwiftUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -240,6 +293,7 @@
 				EA87D6C223EB9ACC0075B66F /* DesignCodeSwiftUITests */,
 				EA87D6AA23EB9AC60075B66F /* Products */,
 				EA631340247FF068003DA07E /* Frameworks */,
+				63A9D119CC74E641C2F2D6F6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -259,6 +313,7 @@
 				EA5A6932242188910006A954 /* Resources */,
 				EA5A69312421888C0006A954 /* Common */,
 				EA87D6BA23EB9ACC0075B66F /* Info.plist */,
+				EA5DA77E2489322B006F14C9 /* GoogleService-Info.plist */,
 				EA87D6B423EB9ACC0075B66F /* Preview Content */,
 			);
 			path = DesignCodeSwiftUI;
@@ -288,9 +343,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA87D6C823EB9ACC0075B66F /* Build configuration list for PBXNativeTarget "DesignCodeSwiftUI" */;
 			buildPhases = (
+				3014C4F98BF0B2592E40669D /* [CP] Check Pods Manifest.lock */,
 				EA87D6A523EB9AC60075B66F /* Sources */,
 				EA87D6A623EB9AC60075B66F /* Frameworks */,
 				EA87D6A723EB9AC60075B66F /* Resources */,
+				32CD7E45BF7B63A44340D11F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -300,6 +357,7 @@
 			packageProductDependencies = (
 				EA5886CF24740D7C000422F4 /* Contentful */,
 				EA666C0B24780948002C1207 /* SDWebImageSwiftUI */,
+				EA607B382488345A00EF81DA /* Lottie */,
 			);
 			productName = DesignCodeSwiftUI;
 			productReference = EA87D6A923EB9AC60075B66F /* DesignCodeSwiftUI.app */;
@@ -309,6 +367,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA87D6CB23EB9ACC0075B66F /* Build configuration list for PBXNativeTarget "DesignCodeSwiftUITests" */;
 			buildPhases = (
+				878B41A929CE5EB07454B828 /* [CP] Check Pods Manifest.lock */,
 				EA87D6BB23EB9ACC0075B66F /* Sources */,
 				EA87D6BC23EB9ACC0075B66F /* Frameworks */,
 				EA87D6BD23EB9ACC0075B66F /* Resources */,
@@ -357,6 +416,7 @@
 			packageReferences = (
 				EA5886CE24740D7C000422F4 /* XCRemoteSwiftPackageReference "contentful.swift" */,
 				EA666C0A24780948002C1207 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				EA607B372488345A00EF81DA /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = EA87D6AA23EB9AC60075B66F /* Products */;
 			projectDirPath = "";
@@ -379,11 +439,14 @@
 				EA5D6E392465836900833520 /* WorkSans-MediumItalic.ttf in Resources */,
 				EA5D6E422465836900833520 /* WorkSans-Thin.ttf in Resources */,
 				EA5D6E382465836900833520 /* WorkSans-SemiBoldItalic.ttf in Resources */,
+				EA607B352488341000EF81DA /* loading.json in Resources */,
 				EA5D6E482465836900833520 /* OFL.txt in Resources */,
 				EA5D6E3A2465836900833520 /* WorkSans-BoldItalic.ttf in Resources */,
 				EA5D6E462465836900833520 /* WorkSans-Bold.ttf in Resources */,
 				EA5D6E362465836900833520 /* WorkSans-Light.ttf in Resources */,
+				EA607B362488341100EF81DA /* success.json in Resources */,
 				EA5D6E412465836900833520 /* WorkSans-BlackItalic.ttf in Resources */,
+				EA5DA77F2489322B006F14C9 /* GoogleService-Info.plist in Resources */,
 				EA5D6E452465836900833520 /* WorkSans-ExtraBoldItalic.ttf in Resources */,
 				EA5D6E3E2465836900833520 /* WorkSans-Medium.ttf in Resources */,
 				EA5D6E3C2465836900833520 /* WorkSans-ThinItalic.ttf in Resources */,
@@ -410,6 +473,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3014C4F98BF0B2592E40669D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesignCodeSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32CD7E45BF7B63A44340D11F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesignCodeSwiftUI/Pods-DesignCodeSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesignCodeSwiftUI/Pods-DesignCodeSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesignCodeSwiftUI/Pods-DesignCodeSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		878B41A929CE5EB07454B828 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesignCodeSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EA87D6A523EB9AC60075B66F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -424,18 +551,22 @@
 				EA61F10A2405AEF7009404DF /* MenuView.swift in Sources */,
 				EA6849DA2464A9CF00A5243B /* Modifiers.swift in Sources */,
 				EA64766024368B0100702272 /* UpdateDetail.swift in Sources */,
+				EA607B3B2488353100EF81DA /* LottieView.swift in Sources */,
 				EAAB047A24466C0F00B36441 /* RingView.swift in Sources */,
 				EA6B3F55240DE3650059EA4C /* Home.swift in Sources */,
 				EA5A693024216C5E0006A954 /* HomeView.swift in Sources */,
 				EA87D6AF23EB9AC60075B66F /* SceneDelegate.swift in Sources */,
 				EA5F657B24730412009F1F0C /* PostList.swift in Sources */,
 				EA87D6B123EB9AC60075B66F /* ContentView.swift in Sources */,
+				EA5C165F248989060098A465 /* UserStore.swift in Sources */,
+				EA607B3F24883AD700EF81DA /* SuccessView.swift in Sources */,
 				EA607B312487EEA200EF81DA /* LoginView.swift in Sources */,
 				EA631344248003AA003DA07E /* Buttons.swift in Sources */,
 				EA6534D32472D068007E5BE4 /* CourseDetail.swift in Sources */,
 				EA666C0E24784675002C1207 /* BlurView.swift in Sources */,
 				EA5D83BF2437AD59005D0E0E /* TabBar.swift in Sources */,
 				EA6351F52465C76E00DED0E5 /* CourseList.swift in Sources */,
+				EA607B3D2488390B00EF81DA /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,9 +716,11 @@
 		};
 		EA87D6C923EB9ACC0075B66F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9972B69EA994E92F981C60C8 /* Pods-DesignCodeSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCodeSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 6U8286L9PF;
 				ENABLE_PREVIEWS = YES;
@@ -605,9 +738,11 @@
 		};
 		EA87D6CA23EB9ACC0075B66F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F36899FBE2C1BC8D19AE7B2 /* Pods-DesignCodeSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCodeSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 6U8286L9PF;
 				ENABLE_PREVIEWS = YES;
@@ -625,6 +760,7 @@
 		};
 		EA87D6CC23EB9ACC0075B66F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5224698D639749DE10EEBFA /* Pods-DesignCodeSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -647,6 +783,7 @@
 		};
 		EA87D6CD23EB9ACC0075B66F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5A26E49D24BC9F94B5DB05 /* Pods-DesignCodeSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -708,6 +845,14 @@
 				minimumVersion = 5.0.11;
 			};
 		};
+		EA607B372488345A00EF81DA /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.8;
+			};
+		};
 		EA666C0A24780948002C1207 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
@@ -723,6 +868,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EA5886CE24740D7C000422F4 /* XCRemoteSwiftPackageReference "contentful.swift" */;
 			productName = Contentful;
+		};
+		EA607B382488345A00EF81DA /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA607B372488345A00EF81DA /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 		EA631341247FF068003DA07E /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
